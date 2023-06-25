@@ -6,6 +6,7 @@ Added up the followig functionalities:
 - Changing the dropper icon for different cases/usages.
 - Changing the background color of the upper selected hex code preview (when user clicks and selects a color on canvas)
 - Escape Key and Right Mouse Click functionality.
+- Added up EsLint for linting.
 
 ## Key Technologies
 
