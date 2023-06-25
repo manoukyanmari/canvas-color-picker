@@ -4,7 +4,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 const path = require('path');
 
 module.exports = {
-  entry: './colorDropper.ts',
+  entry: './src/colorDropper.ts',
   module: {
     rules: [
       {
@@ -31,13 +31,13 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        title: 'our project', 
-        template: 'index.html' }) ,
+        title: 'color dropper project', 
+        template: './src/index.html' }) ,
     new CopyPlugin({
         patterns: [
-            path.resolve(__dirname, "style.css"),
+            path.resolve(__dirname, "./src/style.css"),
             {
-                from: "assets",
+                from: "src/assets",
                 to: "assets",
             },
         ],

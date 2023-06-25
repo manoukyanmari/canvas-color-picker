@@ -2,7 +2,7 @@
   "name": "color-dropper",
   "version": "1.0.0",
   "description": "",
-  "main": "colorDropper.js",
+  "main": "src/colorDropper.js",
   "scripts": {
     "develop": "webpack-dev-server --mode development",
     "build": "npm run lint && webpack --mode production",

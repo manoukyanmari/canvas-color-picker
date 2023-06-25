@@ -2,9 +2,10 @@
     cursor: pointer;
 }
 
+
 #color-preview {
     position: fixed; /* Floating above */
-    transition: transform 0.1s; /* Sticking effects */
+    transition: transform 0.05s; /* Sticking effects */
     pointer-events: none; /* Allow clicking trough the div */
     width: 100px;
     height: 100px;

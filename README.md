@@ -1,12 +1,6 @@
 # Color Picker Tool for Web Photo Editor
 
-Welcome to our open-source project, a part of our larger effort towards building a comprehensive photo editing software based on modern web technologies. This specific module focuses on implementing a color picker, a crucial functionality for digital artists and designers.
-
-Added up the followig functionalities: 
-- Changing the dropper icon for different cases/usages.
-- Changing the background color of the upper selected hex code preview (when user clicks and selects a color on canvas)
-- Escape Key and Right Mouse Click functionality.
-- Added up EsLint for linting.
+Welcome to our open-source project. This specific module focuses on implementing a color picker, a crucial functionality for digital artists and designers.
 
 ## Key Technologies
 
@@ -16,7 +10,6 @@ All the codebase is written in TypeScript, ensuring type safety and improved dev
 - It's worth noting that while we have given the highest priority to functionality, the current user interface might seem a bit rudimentary. Any contributions towards improving it are definitely welcome!
 
 ## Core Features
-
 Our color picker tool comes with the following primary features:
 
 - Users can activate the tool to select and pick colors directly from the canvas.
@@ -25,6 +18,15 @@ Our color picker tool comes with the following primary features:
 - After users click on the dropper icon, the cursor will take on the form of a dropper tool. As it hovers over different areas of the canvas, it displays the corresponding color and HEX code. 
 - When user wants to choose the color, they can click on canvas to select it. Once a color is selected, the color picker tool updates the HEX code in the header with the chosen color.
 - In case if the dropper is active, on Escape Key and Right Mouse Click, dropper becomes inactive.
+
+#### Added up the followig functionalities as add-ons to the requirements: 
+
+- Changing the dropper icon for different cases/usages.
+- Changing the background color of the upper selected hex code preview (when user clicks and selects a color on canvas)
+- Escape Key and Right Mouse Click functionality.
+- Added up EsLint for linting.
+
+FYI: I just left the canvas big 4000x4000 for the requirement, but I could make it nicer.
 
 ### NPM Commands
 
@@ -35,7 +37,6 @@ Run the following commands for testing the app.
     - Run the app on a server "http://localhost:4000/" via this command. Automatically runs the server on browser and leads you there.
 - npm run test
     - Note FYI: This command exists, yes. As I did not have time for writing unit tests yet, there are none to run. I can add up the unit tests if we need that.
-
 
 ### Get Involved, please!
 
