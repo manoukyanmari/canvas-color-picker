@@ -19,7 +19,7 @@ Our color picker tool comes with the following primary features:
 - When user wants to choose the color, they can click on canvas to select it. Once a color is selected, the color picker tool updates the HEX code in the header with the chosen color.
 - In case if the dropper is active, on Escape Key and Right Mouse Click, dropper becomes inactive.
 
-#### Added up the followig functionalities as add-ons to the requirements: 
+#### Added up the following functionalities as add-ons to the requirements: 
 
 - Changing the dropper icon for different cases/usages.
 - Changing the background color of the upper selected hex code preview (when user clicks and selects a color on canvas)
